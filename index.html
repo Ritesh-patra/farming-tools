@@ -7,6 +7,7 @@
     <title>AgriTools Pro - Premium Farming Equipment</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
     <script>
         tailwind.config = {
             theme: {
@@ -87,16 +88,17 @@
                     </div>
                 </div>
 
-
                 <!-- Desktop Menu -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <a href="#home"
                             class="nav-link text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Home</a>
+                        <a href="#about"
+                            class="nav-link text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">About</a>
                         <a href="#brands"
                             class="nav-link text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Brands</a>
-                        <a href="#products"
-                            class="nav-link text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Products</a>
+                        <a href="products.html"
+                            class="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Products</a>
                         <a href="#contact"
                             class="nav-link text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Contact</a>
                         <button onclick="scrollToContact()"
@@ -120,10 +122,12 @@
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-green-100">
                 <a href="#home"
                     class="nav-link block text-gray-700 hover:text-primary px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#about"
+                    class="nav-link block text-gray-700 hover:text-primary px-3 py-2 rounded-md text-base font-medium">About</a>
                 <a href="#brands"
                     class="nav-link block text-gray-700 hover:text-primary px-3 py-2 rounded-md text-base font-medium">Brands</a>
-                <a href="#products"
-                    class="nav-link block text-gray-700 hover:text-primary px-3 py-2 rounded-md text-base font-medium">Products</a>
+                <a href="products.html"
+                    class="block text-gray-700 hover:text-primary px-3 py-2 rounded-md text-base font-medium">Products</a>
                 <a href="#contact"
                     class="nav-link block text-gray-700 hover:text-primary px-3 py-2 rounded-md text-base font-medium">Contact</a>
             </div>
@@ -151,11 +155,11 @@
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up"
                     style="animation-delay: 0.4s;">
-                    <button onclick="scrollToProducts()"
+                    <a href="products.html"
                         class="bg-white text-primary px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transform hover:scale-105 transition-all duration-300 hover-scale">
                         <i class="fas fa-shopping-cart mr-2"></i>
                         Explore Products
-                    </button>
+                    </a>
                     <button onclick="scrollToContact()"
                         class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-primary transition-all duration-300 hover-scale">
                         <i class="fas fa-phone mr-2"></i>
@@ -171,7 +175,115 @@
         </div>
     </section>
 
-    <section id="brands" class="py-20 bg-white">
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    About <span class="text-primary">Gopal Agro Agency</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Government Registered & Approved Manufacturer of premium agricultural implements with over a decade
+                    of experience in serving farmers across India.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Our Story</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Established with a vision to empower farmers with high-quality agricultural equipment, Gopal
+                        Agro Agency has been a trusted name in the farming community. We specialize in manufacturing and
+                        supplying premium tractors, hydraulic trolleys, rotavators, threshers, combine harvesters, and
+                        paddy reapers.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Under the leadership of Mr. Manoranjan Patro (Proprietor), we have built a reputation for
+                        delivering reliable, efficient, and cost-effective farming solutions that enhance productivity
+                        and reduce manual labor.
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary">29+</div>
+                            <div class="text-gray-600">Years Experience</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary">200000+</div>
+                            <div class="text-gray-600">Happy Customers</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary">300000+</div>
+                            <div class="text-gray-600">Products</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-green-50 to-yellow-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Why Choose Us?</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-3 mt-1"></i>
+                            <span class="text-gray-700">Government registered and ISO 9001:2015 certified</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-3 mt-1"></i>
+                            <span class="text-gray-700">Premium quality products at competitive prices</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-3 mt-1"></i>
+                            <span class="text-gray-700">Expert technical support and guidance</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-3 mt-1"></i>
+                            <span class="text-gray-700">Wide network of service centers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-3 mt-1"></i>
+                            <span class="text-gray-700">Timely delivery and installation support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="text-center p-6 bg-gradient-to-br from-green-50 to-yellow-50 rounded-2xl border border-green-100 hover:shadow-lg transition-all duration-300">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Warranty Protection</h4>
+                    <p class="text-gray-600">Comprehensive warranty coverage on all our products with dedicated support
+                        team for quick resolution.</p>
+                </div>
+
+                <div
+                    class="text-center p-6 bg-gradient-to-br from-green-50 to-yellow-50 rounded-2xl border border-green-100 hover:shadow-lg transition-all duration-300">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white mx-auto mb-4">
+                        <i class="fas fa-certificate text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Genuine Parts</h4>
+                    <p class="text-gray-600">100% authentic spare parts and components sourced directly from authorized
+                        manufacturers.</p>
+                </div>
+
+                <div
+                    class="text-center p-6 bg-gradient-to-br from-green-50 to-yellow-50 rounded-2xl border border-green-100 hover:shadow-lg transition-all duration-300">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white mx-auto mb-4">
+                        <i class="fas fa-tools text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Expert Service</h4>
+                    <p class="text-gray-600">Professional installation, maintenance, and repair services by certified
+                        technicians.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- barnds -->
+    <section id="brands" class="py-20 bg-gradient-to-br from-gray-50 to-green-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -186,76 +298,69 @@
                 <!-- Brand Card Example -->
                 <div
                     class="brand-card bg-gradient-to-br from-green-50 to-yellow-50 p-6 rounded-xl text-center hover:shadow-lg transition-all duration-300 hover-scale border border-green-100">
-                    <img src="images/fiekdking.png" alt="Mahindra Logo" class="h-16 mx-auto mb-4 object-contain" />
+                    <img src="images/fiekdking.png" alt="Field King Logo" class="h-16 mx-auto mb-4 object-contain" />
                 </div>
 
                 <div
                     class="brand-card bg-gradient-to-br from-green-50 to-yellow-50 p-6 rounded-xl text-center hover:shadow-lg transition-all duration-300 hover-scale border border-green-100">
-                    <img src="images/ricoitaly.png" alt="TAFE Logo" class="h-16 mx-auto mb-4 object-contain" />
+                    <img src="images/ricoitaly.png" alt="Rico Italy Logo" class="h-16 mx-auto mb-4 object-contain" />
                 </div>
 
                 <div
                     class="brand-card bg-gradient-to-br from-green-50 to-yellow-50 p-6 rounded-xl text-center hover:shadow-lg transition-all duration-300 hover-scale border border-green-100">
-                    <img src="images/jgi.png" alt="Kubota Logo" class="h-16 mx-auto mb-4 object-contain" />
+                    <img src="images/jgi.png" alt="JGI Logo" class="h-16 mx-auto mb-4 object-contain" />
                 </div>
 
                 <div
                     class="brand-card bg-gradient-to-br from-green-50 to-yellow-50 p-6 rounded-xl text-center hover:shadow-lg transition-all duration-300 hover-scale border border-green-100">
-                    <img src="images/gurunanaklogo.png" alt="Swaraj Logo" class="h-16 mx-auto mb-4 object-contain" />
+                    <img src="images/gurunanaklogo.png" alt="Guru Nanak Logo"
+                        class="h-16 mx-auto mb-4 object-contain" />
                 </div>
 
                 <div
                     class="brand-card bg-gradient-to-br from-green-50 to-yellow-50 p-6 rounded-xl text-center hover:shadow-lg transition-all duration-300 hover-scale border border-green-100">
-                    <img src="images/yodhalogo.png" alt="Sonalika Logo" class="h-16 mx-auto mb-4 object-contain" />
+                    <img src="images/yodhalogo.png" alt="Yodha Logo" class="h-16 mx-auto mb-4 object-contain" />
                 </div>
-
-
             </div>
         </div>
     </section>
 
-
     <!-- Products Section -->
-    <section id="products" class="py-20 bg-gradient-to-br from-gray-50 to-green-50">
+    <section id="products" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    Our <span class="text-primary">Product</span> Range
+                    Featured <span class="text-primary">Products</span>
                 </h2>
                 <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                    High-quality farming tools and equipment at competitive prices
+                    High-quality farming tools and equipment for modern agriculture
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 <!-- Product 1 -->
                 <div
                     class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
-                    <div
-                        class="h-60 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
-                        <img src="images/S front.jpg" alt="Tractor Icon" style="object-position: center 40%;"
+                    <div class="h-64 bg-white flex items-center justify-center relative overflow-hidden">
+                        <img src="images/prodcuct1.jpg" alt="Thresher" style="object-position: center ;"
                             class="w-full h-full object-cover " />
-                        <div
-                            class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                            20% OFF
-                        </div>
+
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cultivator</h3>
-                        <p class="text-gray-600 mb-4">Ideal for loosening soil and removing weeds before planting.</p>
-
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Thresher</h3>
+                        <p class="text-gray-600 mb-4">Efficient tool for quick and clean grain separation from crops.
+                        </p>
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-2xl font-bold text-primary">₹5,50,000+</span>
                             <div class="flex items-center text-yellow-500">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <span class="ml-1 text-gray-600 text-sm">(4.9)</span>
+                                <span class="ml-1 text-gray-600 text-sm">(4.8)</span>
                             </div>
                         </div>
-                        <button onclick="openQuoteModal('Heavy Duty Tractors', '₹5,50,000+')"
+                        <button onclick="openQuoteModal('Thresher')"
                             class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
                             <i class="fas fa-quote-left mr-2"></i>
                             Get Best Quote
@@ -266,22 +371,18 @@
                 <!-- Product 2 -->
                 <div
                     class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
-                    <div
-                        class="h-64 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
-                        <img src="images/T front.jpg" alt="Tractor Icon" style="object-position: center 40%;"
+                    <div class="h-60 bg-white flex items-center justify-center relative overflow-hidden">
+                        <img src="images/product2.jpg" alt="Tractor Trolley" style="object-position: left;"
                             class="w-full h-full object-cover " />
-                        <div
-                            class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                            20% OFF
-                        </div>
+
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Thresher</h3>
-                        <p class="text-gray-600 mb-4">Efficient tool for quick and clean grain separation from crops.
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Rotary Tiller (Rotavator)</h3>
+                        <p class="text-gray-600 mb-4">
+                            Heavy-duty rotary tiller for deep tillage and soil preparation.
                         </p>
 
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-2xl font-bold text-primary">₹12,00,000+</span>
                             <div class="flex items-center text-yellow-500">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -291,7 +392,7 @@
                                 <span class="ml-1 text-gray-600 text-sm">(4.8)</span>
                             </div>
                         </div>
-                        <button onclick="openQuoteModal('Harvesting Equipment', '₹12,00,000+')"
+                        <button onclick="openQuoteModal('Tractor Trolley')"
                             class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
                             <i class="fas fa-quote-left mr-2"></i>
                             Get Best Quote
@@ -302,24 +403,17 @@
                 <!-- Product 3 -->
                 <div
                     class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
-                    <div
-                        class="h-60 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
-                        <img src="images/tali.jpg" alt="Tractor Icon" style="object-position: center 40%;"
+                    <div class="h-60 bg-white flex items-center justify-center relative overflow-hidden">
+                        <img src="images/tali.jpg" alt="Tractor Trolley" style="object-position: center 40%;"
                             class="w-full h-full object-cover " />
-                        <div
-                            class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                            20% OFF
-                        </div>
+
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-900 mb-2">Tractor Trolley</h3>
                         <p class="text-gray-600 mb-4">
-                            Durable and spacious tractor trolleys designed for smooth transportation of crops, soil, and
-                            farming tools.
+                            Durable and spacious tractor trolleys designed for smooth transportation.
                         </p>
-
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-2xl font-bold text-primary">₹12,00,000+</span>
                             <div class="flex items-center text-yellow-500">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -329,7 +423,7 @@
                                 <span class="ml-1 text-gray-600 text-sm">(4.8)</span>
                             </div>
                         </div>
-                        <button onclick="openQuoteModal('Harvesting Equipment', '₹12,00,000+')"
+                        <button onclick="openQuoteModal('Tractor Trolley')"
                             class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
                             <i class="fas fa-quote-left mr-2"></i>
                             Get Best Quote
@@ -337,26 +431,21 @@
                     </div>
                 </div>
 
-                <!-- Product 4 -->
+                <!-- product4 -->
                 <div
                     class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
-                    <div
-                        class="h-60 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
-                        <img src="images/Harrows.jpg" alt="Tractor Icon" style="object-position: center 40%;"
-                            class="w-full h-full object-cover " />
-                        <div
-                            class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                            20% OFF
-                        </div>
+                    <div class="h-60 bg-white flex items-center justify-center relative overflow-hidden">
+                        <img src="images/product.jpg" alt="Tractor Trolley" style="object-position: top;"
+                            class="w-full h-full object-contain scale-125 " />
+
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Harrows</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Water Tanker</h3>
                         <p class="text-gray-600 mb-4">
-                            Used to break up and smooth soil surface for better seedbed preparation.
+                            Strong and leak-proof tanker for efficient water transport in farms.
                         </p>
 
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-2xl font-bold text-primary">₹12,00,000+</span>
                             <div class="flex items-center text-yellow-500">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -366,7 +455,7 @@
                                 <span class="ml-1 text-gray-600 text-sm">(4.8)</span>
                             </div>
                         </div>
-                        <button onclick="openQuoteModal('Harvesting Equipment', '₹12,00,000+')"
+                        <button onclick="openQuoteModal('Tractor Trolley')"
                             class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
                             <i class="fas fa-quote-left mr-2"></i>
                             Get Best Quote
@@ -374,61 +463,21 @@
                     </div>
                 </div>
 
-                <!-- Product 5 -->
+                <!-- product5 -->
                 <div
                     class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
-                    <div
-                        class="h-60 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
-                        <img src="images/multi harvester.png" alt="Tractor Icon" style="object-position: center 40%;"
+                    <div class="h-60 bg-white flex items-center justify-center relative overflow-hidden">
+                        <img src="images/product5.jpg" alt="Tractor Trolley" style="object-position: center 40%;"
                             class="w-full h-full object-cover " />
-                        <div
-                            class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                            20% OFF
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Harvesting Equipment</h3>
-                        <p class="text-gray-600 mb-4">Modern combine harvesters and threshing machines for efficient
-                            crop processing.</p>
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-2xl font-bold text-primary">₹12,00,000+</span>
-                            <div class="flex items-center text-yellow-500">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <span class="ml-1 text-gray-600 text-sm">(4.8)</span>
-                            </div>
-                        </div>
-                        <button onclick="openQuoteModal('Harvesting Equipment', '₹12,00,000+')"
-                            class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
-                            <i class="fas fa-quote-left mr-2"></i>
-                            Get Best Quote
-                        </button>
-                    </div>
-                </div>
 
-                <!-- Product 6 -->
-                <div
-                    class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
-                    <div
-                        class="h-60 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
-                        <img src="images/Rice Mill Img.jpg" alt="Tractor Icon" style="object-position: center 40%;"
-                            class="w-full h-full object-cover " />
-                        <div
-                            class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                            20% OFF
-                        </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Rice Mill Machine</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Heavy Duty Cultivator</h3>
                         <p class="text-gray-600 mb-4">
-                            Efficient machine for removing husk and producing polished rice with minimal effort.
+                            Strong and efficient cultivator for deep tillage and weed removal.
                         </p>
 
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-2xl font-bold text-primary">₹12,00,000+</span>
                             <div class="flex items-center text-yellow-500">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -438,19 +487,62 @@
                                 <span class="ml-1 text-gray-600 text-sm">(4.8)</span>
                             </div>
                         </div>
-                        <button onclick="openQuoteModal('Harvesting Equipment', '₹12,00,000+')"
+                        <button onclick="openQuoteModal('Tractor Trolley')"
                             class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
                             <i class="fas fa-quote-left mr-2"></i>
                             Get Best Quote
                         </button>
                     </div>
                 </div>
+
+                <!-- product6 -->
+
+
+                <div
+                    class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
+                    <div class="h-60 bg-white flex items-center justify-center relative overflow-hidden">
+                        <img src="images/S front.jpg" alt="Cultivator" style="object-position: center 40%;"
+                            class="w-full h-full object-cover " />
+
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cultivator</h3>
+                        <p class="text-gray-600 mb-4">Ideal for loosening soil and removing weeds before planting.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center text-yellow-500">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="ml-1 text-gray-600 text-sm">(4.9)</span>
+                            </div>
+                        </div>
+                        <button onclick="openQuoteModal('Cultivator')"
+                            class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
+                            <i class="fas fa-quote-left mr-2"></i>
+                            Get Best Quote
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- See All Products Button -->
+            <div class="text-center">
+                <a href="products.html"
+                    class="inline-flex items-center bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-th-large mr-3"></i>
+                    See All Products
+                    <i class="fas fa-arrow-right ml-3"></i>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-white">
+    <section id="contact" class="py-20 bg-gradient-to-br from-gray-50 to-green-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -464,7 +556,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <!-- Contact Info -->
                 <div class="space-y-8">
-                    <div class="bg-gradient-to-br from-green-50 to-yellow-50 p-8 rounded-2xl border border-green-100">
+                    <div class="bg-white p-8 rounded-2xl border border-green-100 shadow-lg">
                         <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
 
                         <div class="space-y-6">
@@ -475,8 +567,8 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold text-gray-900">Phone</h4>
-                                    <p class="text-gray-600">+91 98765 43210</p>
-                                    <p class="text-gray-600">+91 87654 32109</p>
+                                    <p class="text-gray-600">+91 98611 33730</p>
+                                    <p class="text-gray-600">+91 93377 91124</p>
                                 </div>
                             </div>
 
@@ -487,8 +579,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold text-gray-900">Email</h4>
-                                    <p class="text-gray-600">info@agritoolspro.com</p>
-                                    <p class="text-gray-600">sales@agritoolspro.com</p>
+                                    <p class="text-gray-600">gopalagroagency@gmail.com</p>
                                 </div>
                             </div>
 
@@ -499,8 +590,8 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold text-gray-900">Address</h4>
-                                    <p class="text-gray-600">Agricultural Market Complex,<br>Main Road, Sector
-                                        15,<br>Farming District - 123456</p>
+                                    <p class="text-gray-600">HaldiaPadar,
+                                        NH-16 (Gm), Odisha - India</p>
                                 </div>
                             </div>
 
@@ -511,19 +602,19 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold text-gray-900">Business Hours</h4>
-                                    <p class="text-gray-600">Monday - Saturday: 8:00 AM - 8:00 PM</p>
-                                    <p class="text-gray-600">Sunday: 9:00 AM - 6:00 PM</p>
+                                    <p class="text-gray-600">Monday - Sunday: 9:00 AM - 9:00 PM</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="mt-8 flex space-x-4">
-                            <a href="https://wa.me/919876543210" target="_blank"
+                            <a href="https://wa.me/919861133730?text=Hi%20Gopal%20Agro%20Agency%2C%20I%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details."
+                                target="_blank"
                                 class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl transition-all duration-300 hover-scale flex items-center">
                                 <i class="fab fa-whatsapp mr-2"></i>
                                 WhatsApp
                             </a>
-                            <a href="tel:+919876543210"
+                            <a href="tel:+919861133730"
                                 class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl transition-all duration-300 hover-scale flex items-center">
                                 <i class="fas fa-phone mr-2"></i>
                                 Call Now
@@ -532,10 +623,9 @@
                     </div>
                 </div>
 
-                <!-- Contact Form -->
-
+                <!-- Map -->
                 <div class="fade-in">
-                    <div class="bg-gray-100 rounded-2xl p-8">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg">
                         <h3 class="text-2xl font-bold text-gray-800 mb-6">Store Location</h3>
 
                         <div class="h-[300px] md:h-[400px] w-full rounded-xl overflow-hidden">
@@ -548,13 +638,13 @@
                         <div class="mt-6 flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
                             <a href="https://maps.app.goo.gl/xRuCv9tP6E318Mm87" target="_blank" class="flex-1">
                                 <button
-                                    class="w-full bg-[#471396] text-white py-3 rounded-xl font-semibold hover:bg-[#B13BFF] transition-colors">
+                                    class="w-full bg-primary text-white py-3 rounded-xl font-semibold hover:bg-primary-dark transition-colors">
                                     Get Directions
                                 </button>
                             </a>
                             <a href="tel:+919337791125" class="flex-1">
                                 <button
-                                    class="w-full border-2 border-[#471396] text-[#471396] py-3 rounded-xl font-semibold hover:bg-[#471396] hover:text-white transition-colors">
+                                    class="w-full border-2 border-primary text-primary py-3 rounded-xl font-semibold hover:bg-primary hover:text-white transition-colors">
                                     Call Store
                                 </button>
                             </a>
@@ -584,7 +674,7 @@
                             class="w-10 h-10 bg-gradient-to-r from-green-500 to-green-700 rounded-full flex items-center justify-center text-white hover:scale-110 transition-all duration-300">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#"
+                        <a href="https://wa.me/919861133730?text=Hi%20Gopal%20Agro%20Agency%2C%20I%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details."
                             class="w-10 h-10 bg-gradient-to-r from-green-500 to-green-700 rounded-full flex items-center justify-center text-white hover:scale-110 transition-all duration-300">
                             <i class="fab fa-whatsapp"></i>
                         </a>
@@ -601,10 +691,12 @@
                     <ul class="space-y-3">
                         <li><a href="#home"
                                 class="text-gray-300 hover:text-green-400 transition-colors duration-300">Home</a></li>
+                        <li><a href="#about"
+                                class="text-gray-300 hover:text-green-400 transition-colors duration-300">About</a></li>
                         <li><a href="#brands"
                                 class="text-gray-300 hover:text-green-400 transition-colors duration-300">Brands</a>
                         </li>
-                        <li><a href="#products"
+                        <li><a href="products.html"
                                 class="text-gray-300 hover:text-green-400 transition-colors duration-300">Products</a>
                         </li>
                         <li><a href="#contact"
@@ -625,9 +717,8 @@
                         </p>
                         <p class="text-gray-300 flex items-center">
                             <i class="fas fa-phone mr-3 text-green-400"></i>
-                            Office: +91 98611 33730 | +91 93377 91125 | +91 93377 91124
+                            Office: +91 98611 33730
                         </p>
-
                         <p class="text-gray-300 flex items-center">
                             <i class="fas fa-envelope mr-3 text-green-400"></i>
                             gopalagroagency@gmail.com
@@ -643,12 +734,11 @@
 
             <div class="border-t border-gray-700 mt-12 pt-8 text-center">
                 <p class="text-gray-400">
-                    &copy; 2024 Gopal Agro Agency. All rights reserved. | ISO 9001:2015 Certified
+                    &copy; 2025 Gopal Agro Agency. All rights reserved. | ISO 9001:2015 Certified
                 </p>
             </div>
         </div>
     </footer>
-
 
     <!-- Quote Modal -->
     <div id="quote-modal"
@@ -664,46 +754,35 @@
                 </div>
             </div>
 
-            <form id="quote-form" class="p-6 space-y-4">
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">Product</label>
-                    <input type="text" id="product-name" readonly
-                        class="w-full px-4 py-3 border border-gray-300 rounded-xl bg-gray-50">
-                </div>
-
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">Price Range</label>
-                    <input type="text" id="product-price" readonly
-                        class="w-full px-4 py-3 border border-gray-300 rounded-xl bg-gray-50">
-                </div>
+            <form id="quote-form" action="send-quote.php" method="post" class="p-6 space-y-4">
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Your Name *</label>
-                    <input type="text" id="customer-name" required
+                    <input type="text" id="customer-name" name="customer-name" required
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
-                    <input type="tel" id="customer-phone" required
+                    <input type="tel" id="customer-phone" name="customer-phone" required
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                    <input type="email" id="customer-email"
+                    <input type="email" id="customer-email" name="customer-email"
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Quantity</label>
-                    <input type="number" id="quantity" min="1" value="1"
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Additional Requirements</label>
-                    <textarea id="requirements" rows="3"
+                    <textarea id="requirements" name="requirements" rows="3"
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
                         placeholder="Any specific requirements or questions..."></textarea>
                 </div>
@@ -718,19 +797,20 @@
                         Submit Quote Request
                     </button>
                 </div>
+
             </form>
+
         </div>
     </div>
 
     <!-- Floating WhatsApp Button -->
     <div class="fixed bottom-6 right-6 z-40">
-        <a href="https://wa.me/919876543210?text=Hi%20Gopal%20Agro%20Agency%2C%20I%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details."
+        <a href="https://wa.me/919437060893?text=Hi%20Gopal%20Agro%20Agency%2C%20I%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details."
             target="_blank"
             class="bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce-slow">
             <i class="fab fa-whatsapp text-2xl"></i>
         </a>
     </div>
-
 
     <script>
         // Mobile menu toggle
@@ -742,31 +822,24 @@
         // Smooth scrolling for navigation links
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                if (targetElement) {
-                    const offsetTop = targetElement.offsetTop - 64;
-                    window.scrollTo({
-                        top: offsetTop,
-                        behavior: 'smooth'
-                    });
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        const offsetTop = targetElement.offsetTop - 64;
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                    // Close mobile menu
+                    document.getElementById('mobile-menu').classList.add('hidden');
                 }
-                // Close mobile menu
-                document.getElementById('mobile-menu').classList.add('hidden');
             });
         });
 
         // Scroll functions
-        function scrollToProducts() {
-            const productsSection = document.getElementById('products');
-            const offsetTop = productsSection.offsetTop - 64;
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-            });
-        }
-
         function scrollToContact() {
             const contactSection = document.getElementById('contact');
             const offsetTop = contactSection.offsetTop - 64;
@@ -777,9 +850,7 @@
         }
 
         // Quote modal functions
-        function openQuoteModal(productName, price) {
-            document.getElementById('product-name').value = productName;
-            document.getElementById('product-price').value = price;
+        function openQuoteModal(productName) {
             document.getElementById('quote-modal').classList.remove('hidden');
             document.body.style.overflow = 'hidden';
         }
@@ -790,72 +861,22 @@
             document.getElementById('quote-form').reset();
         }
 
-        // Quote form submission
         document.getElementById('quote-form').addEventListener('submit', function (e) {
-            e.preventDefault();
 
-            const formData = {
-                product: document.getElementById('product-name').value,
-                price: document.getElementById('product-price').value,
-                name: document.getElementById('customer-name').value,
-                phone: document.getElementById('customer-phone').value,
-                email: document.getElementById('customer-email').value,
-                quantity: document.getElementById('quantity').value,
-                requirements: document.getElementById('requirements').value
-            };
+            const formData = new FormData(this);
 
-            // Store data in localStorage
-            const quotes = JSON.parse(localStorage.getItem('quotes') || '[]');
-            quotes.push({
-                ...formData,
-                timestamp: new Date().toISOString(),
-                id: Date.now()
-            });
-            localStorage.setItem('quotes', JSON.stringify(quotes));
-
-            alert(`Quote request submitted successfully!
-
-Product: ${formData.product}
-Price Range: ${formData.price}
-Name: ${formData.name}
-Phone: ${formData.phone}
-Quantity: ${formData.quantity}
-
-We will contact you soon with the best price!`);
-
-            closeQuoteModal();
-        });
-
-        // Contact form submission
-        document.getElementById('contact-form').addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            const formData = {
-                name: document.getElementById('contact-name').value,
-                phone: document.getElementById('contact-phone').value,
-                email: document.getElementById('contact-email').value,
-                subject: document.getElementById('contact-subject').value,
-                message: document.getElementById('contact-message').value
-            };
-
-            // Store data in localStorage
-            const contacts = JSON.parse(localStorage.getItem('contacts') || '[]');
-            contacts.push({
-                ...formData,
-                timestamp: new Date().toISOString(),
-                id: Date.now()
-            });
-            localStorage.setItem('contacts', JSON.stringify(contacts));
-
-            alert(`Message sent successfully!
-
-Name: ${formData.name}
-Phone: ${formData.phone}
-Subject: ${formData.subject}
-
-We will get back to you soon!`);
-
-            this.reset();
+            fetch('send-quote.php', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (response.ok) {
+                        closeQuoteModal();
+                        window.location.href = "thankyou.html"; // ✅ redirect on success
+                    } else {
+                        alert("Something went wrong!");
+                    }
+                });
         });
 
         // Close modal when clicking outside
@@ -902,10 +923,6 @@ We will get back to you soon!`);
         document.querySelectorAll('.product-card, .brand-card').forEach(el => {
             observer.observe(el);
         });
-
-        // Console log for stored data (for testing)
-        console.log('Stored Quotes:', JSON.parse(localStorage.getItem('quotes') || '[]'));
-        console.log('Stored Contacts:', JSON.parse(localStorage.getItem('contacts') || '[]'));
     </script>
 </body>
 
