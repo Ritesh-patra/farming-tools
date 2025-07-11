@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriTools Pro - Premium Farming Equipment</title>
     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- <link rel="stylesheet" href="src/output.css"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
     <script>
@@ -82,10 +83,10 @@
                 <!-- Logo -->
                 <div class="flex items-center space-x-2">
                     <img src="images/logo.jpg" alt="AgriTools Logo" class="h-24 w-24 object-contain" />
-                    <div
-                        class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-
-                    </div>
+                    <h1
+                        class="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Gopal Agro Agency
+                    </h1>
                 </div>
 
                 <!-- Desktop Menu -->
@@ -160,7 +161,7 @@
                         <i class="fas fa-shopping-cart mr-2"></i>
                         Explore Products
                     </a>
-                    <button onclick="scrollToContact()"
+                    <button onclick="openQuoteModal()"
                         class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-primary transition-all duration-300 hover-scale">
                         <i class="fas fa-phone mr-2"></i>
                         Get Free Quote
@@ -495,19 +496,18 @@
                     </div>
                 </div>
 
+
                 <!-- product6 -->
-
-
                 <div
                     class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover-scale border border-green-100">
                     <div class="h-60 bg-white flex items-center justify-center relative overflow-hidden">
-                        <img src="images/S front.jpg" alt="Cultivator" style="object-position: center 40%;"
-                            class="w-full h-full object-cover " />
-
+                        <img src="images/farming.jpg" alt="Wheel" style="object-position:center;"
+                            class="w-full h-full object-contain scale-125 " />
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cultivator</h3>
-                        <p class="text-gray-600 mb-4">Ideal for loosening soil and removing weeds before planting.</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Agricultural Wheels</h3>
+                        <p class="text-gray-600 mb-4">High-quality wheels and tires for various agricultural equipment.
+                        </p>
                         <div class="flex justify-between items-center mb-4">
                             <div class="flex items-center text-yellow-500">
                                 <i class="fas fa-star"></i>
@@ -515,10 +515,10 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <span class="ml-1 text-gray-600 text-sm">(4.9)</span>
+                                <span class="ml-1 text-gray-600 text-sm">(4.7)</span>
                             </div>
                         </div>
-                        <button onclick="openQuoteModal('Cultivator')"
+                        <button onclick="openQuoteModal('Agricultural Wheels')"
                             class="w-full bg-gradient-to-r from-primary to-accent text-white px-4 py-3 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold">
                             <i class="fas fa-quote-left mr-2"></i>
                             Get Best Quote
@@ -725,8 +725,8 @@
                         </p>
                         <p class="text-gray-300 flex items-start">
                             <i class="fas fa-map-marker-alt mr-3 text-green-400 mt-1"></i>
-                            Auto Nagar Complex, Stage-1, Plot No. 51,<br>
-                            HaldiaPadar, NH-5 (Gm), Odisha - India
+                            HaldiaPadar,
+                            NH-16 (Gm), Odisha
                         </p>
                     </div>
                 </div>
@@ -758,19 +758,19 @@
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Your Name *</label>
-                    <input type="text" id="customer-name" name="customer-name" required
+                    <input placeholder="Full name" type="text" id="customer-name" name="customer-name" required
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
-                    <input type="tel" id="customer-phone" name="customer-phone" required
+                    <input placeholder="Mobile Number" type="tel" id="customer-phone" name="customer-phone" required
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                    <input type="email" id="customer-email" name="customer-email"
+                    <input placeholder="example@example.com" type="email" id="customer-email" name="customer-email"
                         class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
                 </div>
 
